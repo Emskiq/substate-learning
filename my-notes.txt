@@ -1,0 +1,17 @@
+--- first set
+phrase: decade fine slim siren during lumber hedgehog planet reopen alarm type marine
+SR addr key: 5DDBDNBVXLXimWQab2W4YC6TU7iFL12w7jfD3pGYMntwNxd7
+ED25519 key: 5DvE6ZdxGYNhMqooYpMhUaaW2oey7Uo3YXaqAez8MTEBzrLt
+
+keys:
+- 6175726132b249bdbb9deacae68b0a2f734c5808c42d7c8f30146ad124d7f835bbf81c79
+- 6772616e52010dc0636d50656961bd12af029e1bd14a255ef2dd8fe723670a0c5f992b5e
+
+--- second set
+phrase: true also urban fruit seat nut affair hurt warfare pudding actress motion
+SR addr key: 5CDeKhWjD8t1LFKuNfGKXhngrTKm3NnyivTUbfhTXZnNMTRf
+ED25519 key: 5Gh4US1kiBaH95f9cjFzkCg6oB2uyC9krn8NuUN3vULQgoXm
+
+keys:
+- 6175726106d14ff1cacd0bcc28981654db2ab9fb9c5796ffd2354688ac9d0940083c9e62
+- 6772616e7bd9516c5f86da6dcf8508ceb3077c7e757253e5979b523496a9559090d99d4b
