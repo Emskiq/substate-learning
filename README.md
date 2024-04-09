@@ -18,13 +18,13 @@ This section covers the basics of working with Substrate-based blockchain nodes.
 
 Initially, the abundance of information may seem overwhelming and tedious (_it was for me_), but the tutorials are foundational and essential.
 
-#### I) Build a local chain
+### I) Build a local chain
 
 This first tutorial lays the foundation for subsequent ones and is `100%` necessary. 
 
 It provides instructions on starting the Substrate node locally and setting up the front-end template.
 
-#### II) Simulate a network
+### II) Simulate a network
 
 While this tutorial demonstrates simulating a private blockchain network with a set of private validators, it can be considered _optional_.
 
@@ -47,7 +47,7 @@ Some concepts you might want to research on your own include:
 - Generating custom chain specifications
 - Aura consensus
 
-#### IV) Authorize Specific Nodes
+### IV) Authorize Specific Nodes
 
 This is the first tutorial where you'll touch some Rust code, and I'd say it's a bit more complex.
 
@@ -58,4 +58,4 @@ During this tutorial, the following concepts are covered:
 -..
 
 
-#### V) Monitor node metrics
+### V) Monitor node metrics
