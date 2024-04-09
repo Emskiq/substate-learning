@@ -37,3 +37,25 @@ During exploration, I found myself delving into the CLI, which is used to start 
 ```
 
 and discovered our favourite crate - [Clap](https://docs.rs/clap/latest/clap/)
+
+### III) Add Trusted Nodes
+
+Similar to the previous section, this can be skipped, but it's a quick one. However, if you're already familiar with the basic workflow of blockchain, I'd recommend skipping it.
+
+Some concepts you might want to research on your own include:
+- Key generation (SR and ED keys)
+- Generating custom chain specifications
+- Aura consensus
+
+#### IV) Authorize Specific Nodes
+
+This is the first tutorial where you'll touch some Rust code, and I'd say it's a bit more complex.
+
+I'd recommend doing this one, as it's your first hands-on experience with writing Substrate code—even if it's mostly copy and paste 😄
+
+During this tutorial, the following concepts are covered:
+-..
+-..
+
+
+#### V) Monitor node metrics
