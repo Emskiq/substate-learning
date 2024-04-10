@@ -334,9 +334,7 @@ construct_runtime!(
 		Balances: pallet_balances,
 		TransactionPayment: pallet_transaction_payment,
 		Sudo: pallet_sudo,
-		// Include the custom logic from the pallet-template in the runtime.
 		TemplateModule: pallet_template,
-		/*** Add This Line ***/
 		NodeAuthorization: pallet_node_authorization::{Pallet, Call, Storage, Event<T>, Config<T>},
 		Utility: pallet_utility,
 		Nicks: pallet_nicks,
