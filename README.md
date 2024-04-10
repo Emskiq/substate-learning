@@ -54,8 +54,24 @@ This is the first tutorial where you'll touch some Rust code, and I'd say it's a
 I'd recommend doing this one, as it's your first hands-on experience with writing Substrate code—even if it's mostly copy and paste 😄
 
 During this tutorial, the following concepts are covered:
--..
--..
+- Peer ID and Account ID
+- Compiling Rust code
+- **Runtime** (important one)
+- Dependencies (in `Cargo.toml`)
+- `Config` trait
 
+### V) Monitor Node Metrics
 
-### V) Monitor node metrics
+This tutorial can be easily skipped if you aren't interested in node metrics or setting up [Prometheus](https://prometheus.io/) endpoints linked with [Grafana](https://grafana.com/) UI.
+
+While it's not a complete waste of time, if your focus is solely on development, you can skip it.
+
+### VI) Upgrade a Running Network
+
+This tutorial is important as it demonstrates how to upgrade your network while it's running.
+
+Here, you'll utilize the [Sudo](https://paritytech.github.io/polkadot-sdk/master/pallet_sudo/index.html) and [Utility](https://paritytech.github.io/polkadot-sdk/master/pallet_utility/index.html) pallets.
+
+> _There were some problems with the `utility` pallet. You can check my `runtime/Cargo.toml`_
+
+This tutorial is relatively straightforward but essential. Pay attention while going through it.
