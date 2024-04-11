@@ -75,3 +75,31 @@ Here, you'll utilize the [Sudo](https://paritytech.github.io/polkadot-sdk/master
 > _There were some problems with the `utility` pallet. You can check my `runtime/Cargo.toml`_
 
 This tutorial is relatively straightforward but essential. Pay attention while going through it.
+
+
+## Build Application Logic
+
+### Overview:
+
+This section delves deeper into coding and Rust-related information. It serves as a basic introduction on how to integrate custom business logic through [pallets](https://docs.substrate.io/reference/frame-pallets/) (similar to Smart Contracts in Solidity).
+
+For [Smart Contract development](https://docs.substrate.io/tutorials/smart-contracts/), you'll continue using the `substrate-node-template` that you've cloned and have been tinkering with since Lesson 1.
+
+### I) Add a Pallet to the Runtime
+
+This tutorial demonstrates a common method of adding a pallet to the [runtime](https://docs.substrate.io/learn/runtime-development/).
+
+We'll be utilizing the [pallet_nicks](https://docs.rs/pallet-nicks/28.0.0/pallet_nicks/) crate, which allows for custom nicknames stored in the blockchain (similar to NFTs) by depositing a certain amount of crypto.
+
+This tutorial sheds light on several important topics:
+- [WebAssembly](https://wiki.polkadot.network/docs/learn-wasm) and `Cargo.toml` - providing insight into how Substrate handles the build process along with dependencies.
+- `Config` trait - offering further in-depth information on this aspect.
+- Adding a pallet to the runtime.
+
+### II) Specify the Origin for a call
+
+This tutorial is also crucial, so I highly recommend completing it.
+
+It explains how to specify the originating account calling the functions exposed in the previous lesson (such as `set_name`, `clear_name`, etc.). It also covers concepts like:
+- `ForceOrigin`, `RootOrigin`, `SignedOrigin` - defining the accounts capable of specific actions.
+- `Sudo` events, `Sudid` - addressing error messages and their indexes in the dispatch.
