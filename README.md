@@ -1,4 +1,4 @@
-# Substrate Learning
++# Substrate Learning
 
 This is my local [Substrate](https://substrate.io/) node, used for learning Rust Smart contract development.
 
@@ -103,3 +103,31 @@ This tutorial is also crucial, so I highly recommend completing it.
 It explains how to specify the originating account calling the functions exposed in the previous lesson (such as `set_name`, `clear_name`, etc.). It also covers concepts like:
 - `ForceOrigin`, `RootOrigin`, `SignedOrigin` - defining the accounts capable of specific actions.
 - `Sudo` events, `Sudid` - addressing error messages and their indexes in the dispatch.
+
+### III) Macros in Custom Pallet
+
+This tutorial introduces how to implement _your own custom logic_ for a pallet, specifically creating a simple Proof-of-Existence (POE) application.
+
+For detailed instructions, refer to the [official lesson](https://docs.substrate.io/tutorials/build-application-logic/use-macros-in-a-custom-pallet/).
+
+Concepts covered in this tutorial include:
+- Setting up a custom pallet
+- Basic pallet structure
+- The `Config` trait
+- Pallet `events`, `errors`, `storage`, and `callable functions`
+
+### IV) Add Offchain Workers
+
+This tutorial is skipped as it is outdated.
+
+### V) Publish Custom Pallets
+
+While not essential, this lesson demonstrates how to upload your custom logic using a simple git repository.
+
+Though optional, I found it interesting as I didn't realize the process of exposing custom pallets was that straightforward.
+
+### VI) Collectible Workshops
+
+This page provides additional resources for further learning.
+
+Personally, I plan to at least explore the provided resources. Who knows, there might be the next big thing that will spark my interest and keep me engaged in the future.
