@@ -2,7 +2,7 @@
 
 This is my local [Substrate](https://substrate.io/) node, used for learning Rust Smart contract development.
 
-This marks the next step of my learning journey: I exploring the basics of Rust SC development and auditing.
+This marks the next step of my learning journey:  I am exploring the basics of Rust SC development and auditing.
 
 The plan here remains similar: **_Sharing insights during the process of learning to solidify my knowledge and potentially help someone in the future._**
 
