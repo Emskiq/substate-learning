@@ -1,4 +1,4 @@
-+# Substrate Learning
+# Substrate Learning
 
 This is my local [Substrate](https://substrate.io/) node, used for learning Rust Smart contract development.
 
