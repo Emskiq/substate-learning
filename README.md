@@ -10,9 +10,27 @@ Having not delved deeply into Smart Contract development with Solidity beforehan
 
 This is the [official page](https://docs.substrate.io/tutorials/), which offers valuable resources.
 
-## Build a blockchain
+## Overview
 
-### Overiew:
+Given the magnitude of these tutorials, I'll offer my opinion on which lessons should be completed and which ones can be skipped. A more in-depth review of each lesson follows in the next sections.
+
+### Build a Blockchain
+- [Build a local blockchain](https://docs.substrate.io/tutorials/build-a-blockchain/build-local-blockchain/) - Recommended.
+- [Simulate a network](https://docs.substrate.io/tutorials/build-a-blockchain/simulate-network/) - Optional, but recommended.
+- [Add trusted nodes](https://docs.substrate.io/tutorials/build-a-blockchain/add-trusted-nodes/) - Optional, but quick.
+- [Authorize specific nodes](https://docs.substrate.io/tutorials/build-a-blockchain/authorize-specific-nodes/) - Recommended.
+- [Monitor node metrics](https://docs.substrate.io/tutorials/build-a-blockchain/monitor-node-metrics/) - Skip.
+- [Upgrade a running network](https://docs.substrate.io/tutorials/build-a-blockchain/upgrade-a-running-network/) - Recommended.
+
+### Build Application Logic
+- [Add a pallet to the runtime](https://docs.substrate.io/tutorials/build-application-logic/add-a-pallet/) - Recommended.
+- [Specify the origin for a call](https://docs.substrate.io/tutorials/build-application-logic/specify-the-origin-for-a-call/) - Recommended.
+- [Use macros in a custom pallet](https://docs.substrate.io/tutorials/build-application-logic/use-macros-in-a-custom-pallet/) - Recommended.
+- [Add offchain workers](https://docs.substrate.io/tutorials/build-application-logic/add-offchain-workers/) - Skip.
+- [Publish custom pallets](https://docs.substrate.io/tutorials/build-application-logic/publish-custom-pallets/) - Can be skipped, but quick.
+- [Collectibles workshop](https://docs.substrate.io/tutorials/collectibles-workshop/) - Recommended for note-taking.
+
+## Build a blockchain
 
 This section covers the basics of working with Substrate-based blockchain nodes.
 
@@ -78,8 +96,6 @@ This tutorial is relatively straightforward but essential. Pay attention while g
 
 
 ## Build Application Logic
-
-### Overview:
 
 This section delves deeper into coding and Rust-related information. It serves as a basic introduction on how to integrate custom business logic through [pallets](https://docs.substrate.io/reference/frame-pallets/) (similar to Smart Contracts in Solidity).
 
