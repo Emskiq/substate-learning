@@ -29,6 +29,10 @@ Given the magnitude of these tutorials, I'll offer my opinion on which lessons s
 - [Add offchain workers](https://docs.substrate.io/tutorials/build-application-logic/add-offchain-workers/) - Skip.
 - [Publish custom pallets](https://docs.substrate.io/tutorials/build-application-logic/publish-custom-pallets/) - Can be skipped, but quick.
 - [Collectibles workshop](https://docs.substrate.io/tutorials/collectibles-workshop/) - Recommended for note-taking.
+- 
+### Build a Parachain
+
+While the whole section contains minimal code, it is recommended to complete it for the new concepts and terminology that you will learn.
 
 ## Build a blockchain
 
@@ -147,3 +151,9 @@ Though optional, I found it interesting as I didn't realize the process of expos
 This page provides additional resources for further learning.
 
 Personally, I plan to at least explore the provided resources. Who knows, there might be the next big thing that will spark my interest and keep me engaged in the future.
+
+## Build a Parachain
+
+This section focuses on moving beyond solo-chain development and introduces the concept of Parachains, one of the main features of [Polkadot](https://wiki.polkadot.network/docs/learn-parachains).
+
+Note: I wouldn't say that the whole section is useless, but I definitely cannot see any immediate benefit in learning the concepts presented in the tutorials. What will be important, I believe, are the new concepts I have learned as well as all the new terminology.
