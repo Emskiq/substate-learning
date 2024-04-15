@@ -29,7 +29,7 @@ Given the magnitude of these tutorials, I'll offer my opinion on which lessons s
 - [Add offchain workers](https://docs.substrate.io/tutorials/build-application-logic/add-offchain-workers/) - Skip.
 - [Publish custom pallets](https://docs.substrate.io/tutorials/build-application-logic/publish-custom-pallets/) - Can be skipped, but quick.
 - [Collectibles workshop](https://docs.substrate.io/tutorials/collectibles-workshop/) - Recommended for note-taking.
-- 
+
 ### Build a Parachain
 
 While the whole section contains minimal code, it is recommended to complete it for the new concepts and terminology that you will learn.
@@ -157,3 +157,34 @@ Personally, I plan to at least explore the provided resources. Who knows, there 
 This section focuses on moving beyond solo-chain development and introduces the concept of Parachains, one of the main features of [Polkadot](https://wiki.polkadot.network/docs/learn-parachains).
 
 Note: I wouldn't say that the whole section is useless, but I definitely cannot see any immediate benefit in learning the concepts presented in the tutorials. What will be important, I believe, are the new concepts I have learned as well as all the new terminology.
+
+### I) Prepare a Local Relay Chain
+
+This tutorial demonstrates how to start a local relay chain, similar to the first tutorial [Build a Local Chain](#i-build-a-local-chain). While the process is straightforward, it provides valuable insights into various aspects of the Polkadot system/network, including:
+- Relay chain
+- Parachain and parathreads
+- Parachains' traits like _scalability_, _shared security_, and _determinism_ (common traits of all blockchains 😄)
+- Merkle trees
+- WebAssembly (Wasm)
+
+### II) Connect a Local Parachain
+
+This tutorial illustrates how to reserve a parachain identifier, enabling you to connect your parachain with your local relay chain. It was the most interesting and beneficial tutorial for me, alongside the first one, providing insights into:
+- `ParaID`, `ParaDeposit`
+- Registering parachain collator
+- Genesis state and Wasm executable
+
+### III) Acquire Testnet Slot
+
+This tutorial demonstrates deploying a parachain on a public test network like the Rococo test network. While informative, it can be skipped as the deployment process is not overly complex. I encountered challenges due to insufficient funds, similar to deploying smart contracts on Sepolia.
+
+### IV) Message Passing Channels
+
+This tutorial illustrates communication between the Relay chain and Parachain, as well as between two separate Parachains. Despite its complexity, it's worth completing to understand:
+- `UMP`, `DMP`, and `XCMP` communication channels
+- `XCM` message format
+- _Sovereign account_ of a Parachain
+
+### V) Transfer Assets with XCM
+
+As I didn't anticipate gaining useful information that I wouldn't forget after a few days, I decided to skip this tutorial.
